@@ -1,0 +1,18 @@
+body {
+    font-family: system-ui, sans-serif;
+    padding: 2rem;
+    background: #f6f6f6;
+  }
+
+  nav  {
+    display: flex; 
+    gap: 1.5rem; 
+  }
+
+  section {
+    background: white;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }

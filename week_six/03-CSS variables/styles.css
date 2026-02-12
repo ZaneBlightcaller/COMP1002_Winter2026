@@ -1,0 +1,44 @@
+
+
+body {
+    font-family: system-ui, sans-serif;
+    padding: 2rem;
+    background:/*add color here */ 
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+section {
+    background: 
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid /*add color here */ 
+}
+
+/* Grouping with :is() */
+:is(h1, h2, p) {
+    margin-bottom: 0.5rem;
+}
+
+/* Exclusion with :not() */
+nav a:not(.highlight) {
+    color: /*add color here */ 
+    text-decoration: none;
+}
+
+/* Accessible focus */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid  /*add color here */ 
+    outline-offset: 2px;
+}
+
+/* Parent selection with :has() */
+section:has(button) {
+    border-left: 6px solid  /*add color here */ 
+    padding-left: 1rem;
+}
